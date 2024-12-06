@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Ensure the correct JDK version is used
-        jdk 'JDK-11' // Replace 'JDK-11' with the name configured in Global Tool Configuration
+        jdk 'JDK-21' // Replace 'JDK-11' with the name configured in Global Tool Configuration
     }
 
     stages {
