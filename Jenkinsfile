@@ -4,13 +4,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Run the Python code
-               bat 'javac HelloWorld.java'
+                // Compile the Java program
+                sh 'javac HelloWorld.java'
             }
         }
         stage('Run') {
             steps {
-               bat 'java HelloWorld'
+                // Run the Java program
+                sh 'java HelloWorld'
             }
         }
     }
